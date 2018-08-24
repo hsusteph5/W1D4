@@ -16,7 +16,7 @@ class Board
       nums = row.split("").map { |char| Integer(char) }
       nums.map { |num| Tile.new(num) }
     end
-
+    # tiles = []
     self.new(tiles)
   end
 
